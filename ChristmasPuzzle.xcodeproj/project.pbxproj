@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C90F1622565D3B300C9943A /* Preview.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2C90F1612565D3B300C9943A /* Preview.sks */; };
+		2C90F1662565D40100C9943A /* Preview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C90F1652565D40100C9943A /* Preview.swift */; };
+		2C90F16A25660D0000C9943A /* done.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2C90F16925660D0000C9943A /* done.sks */; };
+		2CEEAAC6256466C700445BA9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAAC5256466C700445BA9 /* AppDelegate.swift */; };
+		2CEEAAC8256466C700445BA9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CEEAAC7256466C700445BA9 /* GameScene.sks */; };
+		2CEEAACA256466C700445BA9 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2CEEAAC9256466C700445BA9 /* Actions.sks */; };
+		2CEEAACC256466C700445BA9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAACB256466C700445BA9 /* GameScene.swift */; };
+		2CEEAACE256466C700445BA9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAACD256466C700445BA9 /* GameViewController.swift */; };
+		2CEEAAD1256466C700445BA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CEEAACF256466C700445BA9 /* Main.storyboard */; };
+		2CEEAAD3256466C900445BA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CEEAAD2256466C900445BA9 /* Assets.xcassets */; };
+		2CEEAAD6256466C900445BA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CEEAAD4256466C900445BA9 /* LaunchScreen.storyboard */; };
+		2CEEAAE1256466C900445BA9 /* ChristmasPuzzleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAAE0256466C900445BA9 /* ChristmasPuzzleTests.swift */; };
+		2CEEAAEC25648C6D00445BA9 /* PlistManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAAEB25648C6D00445BA9 /* PlistManager.swift */; };
+		2CEEAAEE25648C7900445BA9 /* data.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2CEEAAED25648C7900445BA9 /* data.plist */; };
+		2CEEAAF025648C8F00445BA9 /* StoreConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAAEF25648C8F00445BA9 /* StoreConnector.swift */; };
+		2CEEAAF225648C9A00445BA9 /* AppStoreConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAAF125648C9A00445BA9 /* AppStoreConnector.swift */; };
+		2CEEAAF425648CD900445BA9 /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CEEAAF325648CD900445BA9 /* AudioPlayer.swift */; };
+		2CEEAAF625648CE300445BA9 /* Sound in Resources */ = {isa = PBXBuildFile; fileRef = 2CEEAAF525648CE300445BA9 /* Sound */; };
+		2CEEAAF925648F3A00445BA9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CEEAAF825648F3A00445BA9 /* StoreKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2CEEAADD256466C900445BA9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2CEEAABA256466C700445BA9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2CEEAAC1256466C700445BA9;
+			remoteInfo = ChristmasPuzzle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C90F1612565D3B300C9943A /* Preview.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Preview.sks; sourceTree = "<group>"; };
+		2C90F1652565D40100C9943A /* Preview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Preview.swift; sourceTree = "<group>"; };
+		2C90F16925660D0000C9943A /* done.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = done.sks; sourceTree = "<group>"; };
+		2CEEAAC2256466C700445BA9 /* ChristmasPuzzle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChristmasPuzzle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CEEAAC5256466C700445BA9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2CEEAAC7256466C700445BA9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2CEEAAC9256466C700445BA9 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		2CEEAACB256466C700445BA9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2CEEAACD256466C700445BA9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2CEEAAD0256466C700445BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2CEEAAD2256466C900445BA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2CEEAAD5256466C900445BA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2CEEAAD7256466C900445BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CEEAADC256466C900445BA9 /* ChristmasPuzzleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChristmasPuzzleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CEEAAE0256466C900445BA9 /* ChristmasPuzzleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChristmasPuzzleTests.swift; sourceTree = "<group>"; };
+		2CEEAAE2256466C900445BA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CEEAAEB25648C6D00445BA9 /* PlistManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistManager.swift; sourceTree = "<group>"; };
+		2CEEAAED25648C7900445BA9 /* data.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = data.plist; sourceTree = "<group>"; };
+		2CEEAAEF25648C8F00445BA9 /* StoreConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreConnector.swift; sourceTree = "<group>"; };
+		2CEEAAF125648C9A00445BA9 /* AppStoreConnector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoreConnector.swift; sourceTree = "<group>"; };
+		2CEEAAF325648CD900445BA9 /* AudioPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
+		2CEEAAF525648CE300445BA9 /* Sound */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Sound; sourceTree = "<group>"; };
+		2CEEAAF825648F3A00445BA9 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2CEEAABF256466C700445BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CEEAAF925648F3A00445BA9 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CEEAAD9256466C900445BA9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2CEEAAB9256466C700445BA9 = {
+			isa = PBXGroup;
+			children = (
+				2CEEAAF525648CE300445BA9 /* Sound */,
+				2CEEAAC4256466C700445BA9 /* ChristmasPuzzle */,
+				2CEEAADF256466C900445BA9 /* ChristmasPuzzleTests */,
+				2CEEAAC3256466C700445BA9 /* Products */,
+				2CEEAAF725648F3A00445BA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2CEEAAC3256466C700445BA9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2CEEAAC2256466C700445BA9 /* ChristmasPuzzle.app */,
+				2CEEAADC256466C900445BA9 /* ChristmasPuzzleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2CEEAAC4256466C700445BA9 /* ChristmasPuzzle */ = {
+			isa = PBXGroup;
+			children = (
+				2C90F16925660D0000C9943A /* done.sks */,
+				2CEEAAF325648CD900445BA9 /* AudioPlayer.swift */,
+				2CEEAAF125648C9A00445BA9 /* AppStoreConnector.swift */,
+				2CEEAAEF25648C8F00445BA9 /* StoreConnector.swift */,
+				2CEEAAED25648C7900445BA9 /* data.plist */,
+				2CEEAAEB25648C6D00445BA9 /* PlistManager.swift */,
+				2CEEAAC5256466C700445BA9 /* AppDelegate.swift */,
+				2CEEAAC7256466C700445BA9 /* GameScene.sks */,
+				2CEEAAC9256466C700445BA9 /* Actions.sks */,
+				2CEEAACB256466C700445BA9 /* GameScene.swift */,
+				2CEEAACD256466C700445BA9 /* GameViewController.swift */,
+				2C90F1612565D3B300C9943A /* Preview.sks */,
+				2C90F1652565D40100C9943A /* Preview.swift */,
+				2CEEAACF256466C700445BA9 /* Main.storyboard */,
+				2CEEAAD2256466C900445BA9 /* Assets.xcassets */,
+				2CEEAAD4256466C900445BA9 /* LaunchScreen.storyboard */,
+				2CEEAAD7256466C900445BA9 /* Info.plist */,
+			);
+			path = ChristmasPuzzle;
+			sourceTree = "<group>";
+		};
+		2CEEAADF256466C900445BA9 /* ChristmasPuzzleTests */ = {
+			isa = PBXGroup;
+			children = (
+				2CEEAAE0256466C900445BA9 /* ChristmasPuzzleTests.swift */,
+				2CEEAAE2256466C900445BA9 /* Info.plist */,
+			);
+			path = ChristmasPuzzleTests;
+			sourceTree = "<group>";
+		};
+		2CEEAAF725648F3A00445BA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2CEEAAF825648F3A00445BA9 /* StoreKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2CEEAAC1256466C700445BA9 /* ChristmasPuzzle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CEEAAE5256466C900445BA9 /* Build configuration list for PBXNativeTarget "ChristmasPuzzle" */;
+			buildPhases = (
+				2CEEAABE256466C700445BA9 /* Sources */,
+				2CEEAABF256466C700445BA9 /* Frameworks */,
+				2CEEAAC0256466C700445BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChristmasPuzzle;
+			productName = ChristmasPuzzle;
+			productReference = 2CEEAAC2256466C700445BA9 /* ChristmasPuzzle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2CEEAADB256466C900445BA9 /* ChristmasPuzzleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2CEEAAE8256466C900445BA9 /* Build configuration list for PBXNativeTarget "ChristmasPuzzleTests" */;
+			buildPhases = (
+				2CEEAAD8256466C900445BA9 /* Sources */,
+				2CEEAAD9256466C900445BA9 /* Frameworks */,
+				2CEEAADA256466C900445BA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2CEEAADE256466C900445BA9 /* PBXTargetDependency */,
+			);
+			name = ChristmasPuzzleTests;
+			productName = ChristmasPuzzleTests;
+			productReference = 2CEEAADC256466C900445BA9 /* ChristmasPuzzleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2CEEAABA256466C700445BA9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "Yana ";
+				TargetAttributes = {
+					2CEEAAC1256466C700445BA9 = {
+						CreatedOnToolsVersion = 11.7;
+					};
+					2CEEAADB256466C900445BA9 = {
+						CreatedOnToolsVersion = 11.7;
+						TestTargetID = 2CEEAAC1256466C700445BA9;
+					};
+				};
+			};
+			buildConfigurationList = 2CEEAABD256466C700445BA9 /* Build configuration list for PBXProject "ChristmasPuzzle" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2CEEAAB9256466C700445BA9;
+			productRefGroup = 2CEEAAC3256466C700445BA9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2CEEAAC1256466C700445BA9 /* ChristmasPuzzle */,
+				2CEEAADB256466C900445BA9 /* ChristmasPuzzleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2CEEAAC0256466C700445BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CEEAAEE25648C7900445BA9 /* data.plist in Resources */,
+				2CEEAAF625648CE300445BA9 /* Sound in Resources */,
+				2C90F16A25660D0000C9943A /* done.sks in Resources */,
+				2CEEAAD1256466C700445BA9 /* Main.storyboard in Resources */,
+				2CEEAAC8256466C700445BA9 /* GameScene.sks in Resources */,
+				2C90F1622565D3B300C9943A /* Preview.sks in Resources */,
+				2CEEAAD3256466C900445BA9 /* Assets.xcassets in Resources */,
+				2CEEAAD6256466C900445BA9 /* LaunchScreen.storyboard in Resources */,
+				2CEEAACA256466C700445BA9 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CEEAADA256466C900445BA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2CEEAABE256466C700445BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CEEAAEC25648C6D00445BA9 /* PlistManager.swift in Sources */,
+				2CEEAAF225648C9A00445BA9 /* AppStoreConnector.swift in Sources */,
+				2C90F1662565D40100C9943A /* Preview.swift in Sources */,
+				2CEEAACC256466C700445BA9 /* GameScene.swift in Sources */,
+				2CEEAAF025648C8F00445BA9 /* StoreConnector.swift in Sources */,
+				2CEEAACE256466C700445BA9 /* GameViewController.swift in Sources */,
+				2CEEAAC6256466C700445BA9 /* AppDelegate.swift in Sources */,
+				2CEEAAF425648CD900445BA9 /* AudioPlayer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CEEAAD8256466C900445BA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CEEAAE1256466C900445BA9 /* ChristmasPuzzleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2CEEAADE256466C900445BA9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2CEEAAC1256466C700445BA9 /* ChristmasPuzzle */;
+			targetProxy = 2CEEAADD256466C900445BA9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2CEEAACF256466C700445BA9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CEEAAD0256466C700445BA9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2CEEAAD4256466C900445BA9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2CEEAAD5256466C900445BA9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2CEEAAE3256466C900445BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2CEEAAE4256466C900445BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2CEEAAE6256466C900445BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 979HXP52S2;
+				INFOPLIST_FILE = ChristmasPuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Slikatoon.ChristmasPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2CEEAAE7256466C900445BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 979HXP52S2;
+				INFOPLIST_FILE = ChristmasPuzzle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = Slikatoon.ChristmasPuzzle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2CEEAAE9256466C900445BA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 979HXP52S2;
+				INFOPLIST_FILE = ChristmasPuzzleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Slikatoon.ChristmasPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChristmasPuzzle.app/ChristmasPuzzle";
+			};
+			name = Debug;
+		};
+		2CEEAAEA256466C900445BA9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 979HXP52S2;
+				INFOPLIST_FILE = ChristmasPuzzleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Slikatoon.ChristmasPuzzleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ChristmasPuzzle.app/ChristmasPuzzle";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2CEEAABD256466C700445BA9 /* Build configuration list for PBXProject "ChristmasPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CEEAAE3256466C900445BA9 /* Debug */,
+				2CEEAAE4256466C900445BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CEEAAE5256466C900445BA9 /* Build configuration list for PBXNativeTarget "ChristmasPuzzle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CEEAAE6256466C900445BA9 /* Debug */,
+				2CEEAAE7256466C900445BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2CEEAAE8256466C900445BA9 /* Build configuration list for PBXNativeTarget "ChristmasPuzzleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2CEEAAE9256466C900445BA9 /* Debug */,
+				2CEEAAEA256466C900445BA9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2CEEAABA256466C700445BA9 /* Project object */;
+}
